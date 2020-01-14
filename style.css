@@ -5,8 +5,9 @@ body {
 }
 
 a:link {
-    color: #000;
+    color:#000;
     text-decoration: none;
+    opacity:0.75;
 }
 
 a:hover {
@@ -141,8 +142,40 @@ input:focus, input:hover {
     color: blue;
 }
 
+
+.footer {
+    background-color: rgb(242,242,242);
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    border: 0.05px solid lightgrey;
+    color: #000;
+    opacity: 0.75;
+    padding-right:15px;
+}
+
+.footer-space {
+    padding-left: 923.5px;
+}
+
+a:visited {
+    color: #000;
+    opacity: 0.75;
+}
+
 .country {
     background-color: rgb(242,242,242);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    padding-right: 1400px;
+    border-top: 0.05px solid lightgrey;
+}
+
+h3 {
+    font-weight: 200;
+    color: #000;
+    opacity: 0.75;
+    padding-left: 40px;
+    
 }
